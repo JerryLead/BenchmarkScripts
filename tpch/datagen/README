@@ -1,0 +1,68 @@
+Author: Herodotos Herodotou
+Date: July 08, 2010
+
+Description:
+-----------
+The gen_data.pl script can be used to generate TPCH data in a distributed
+fashion and load them into HDFS.
+
+Usage:
+------
+  perl gen_data.pl scale_factor num_files zipf_factor host_list local_dir hdfs_dir
+  
+  where:
+    scale_factor = TPCH Scale factor (GB of data to generate)
+    num_files    = The number of files to generate for each table
+    zipf_factor  = Zipfian distribution factor (0-4, 0 means uniform)
+    host_list    = File containing a list of host machines
+    local_dir    = Local directory to use in the host machines
+    hdfs_dir     = HDFS directory to store the generated data
+
+The script performs the following:
+(a) Verifies the input parameters
+    Note the the local and HDFS directories must not exist already.
+(b) Creates the HDFS and local directories
+    Note that a directory is created under hdfs_dir for each TPC-H table.
+(c) Divides the work (almost) equally among the slave nodes
+    and starts the data generation process on each slave
+(d) Waits for all nodes to finish
+
+Each node will generate a range of table files and load them
+into HDFS. The name for each file is of the form "tablename.tbl.x", 
+where tablename is lineitem, orders etc, and x is a number 
+between 1 and <num_files>. Tables region and nation are an exception
+becuase they are always generated as a single file. Their names are
+region.tbl and nation.tbl respectively.
+Each table file is loaded into the appropriate HDFS directory 
+i.e. the file lineitem.tbl.1 will be loaded into hdfs_dir/lineitem.
+
+
+Assumptions/Requirements:
+-------------------------
+1. The enviromental variable $HADOOP_HOME is defined in the master node and
+   all the slave nodes and it is the same in all nodes
+2. The local directory does not exist in the slave nodes
+3. The HDFS directory does not exist
+4. There is enough local disk space on the slave nodes to generate the data
+5. The number of files must be greater than half the scale factor to ensure
+   that we don't try to generate a file that is greater than 2GB
+
+
+Other Notes:
+------------
+1. A log file called "gen_and_load.out" is created in each slave node 
+   under local_dir.
+2. Tables "region" and "nation" are always generated as a single file
+   since they are very small and fixed.
+3. If the number of files is less than the number of slaves, then
+   not all slaves will be used.
+
+
+Example:
+--------
+perl gen_data.pl 20 10 0 /root/SLAVE_NAMES.txt /mnt/tpch_data /user/root/tpch/in
+
+The above will generate 20GB of data with a zipf factor of 0. Each table will
+be split into 10 files each (except nation and region). Suppose the cluster
+consisted of 5 slave nodes. Then, each slave would generate 10/5=2 files
+for each table, or equivalently 20/5=4GB of data totally.

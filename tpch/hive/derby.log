@@ -1,0 +1,46 @@
+----------------------------------------------------------------
+2013-07-30 12:34:23.292 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance a816c00e-0140-2f92-787b-00000b2b1098
+on database directory /opt/benchmark/tpch/hive/metastore_db  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2013-07-30 12:47:11.002 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance 0b3e4052-0140-2f92-787b-00000b2b1098
+on database directory /opt/benchmark/tpch/hive/TempStatsStore  
+
+Database Class Loader started - derby.database.classpath=''
+
+2013-07-30 12:47:11.087 GMT:
+Shutting down instance 0b3e4052-0140-2f92-787b-00000b2b1098
+----------------------------------------------------------------
+----------------------------------------------------------------
+2013-07-30 12:48:59.082 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance 6b91c056-0140-2f92-787b-00000b2b1098
+on database directory /opt/benchmark/tpch/hive/TempStatsStore  
+
+Database Class Loader started - derby.database.classpath=''
+
+2013-07-30 12:48:59.226 GMT:
+Shutting down instance 6b91c056-0140-2f92-787b-00000b2b1098
+----------------------------------------------------------------
+----------------------------------------------------------------
+2013-07-30 13:03:49.329 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance 23ffc05b-0140-2f92-787b-00000b2b1098
+on database directory /opt/benchmark/tpch/hive/TempStatsStore  
+
+Database Class Loader started - derby.database.classpath=''
+
+2013-07-30 13:03:49.426 GMT:
+Shutting down instance 23ffc05b-0140-2f92-787b-00000b2b1098
+----------------------------------------------------------------
+----------------------------------------------------------------
+2013-07-30 13:04:09.129 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.2.0 - (689064): instance 645c405f-0140-2f92-787b-00000b2b1098
+on database directory /opt/benchmark/tpch/hive/TempStatsStore  
+
+Database Class Loader started - derby.database.classpath=''
+
+2013-07-30 13:04:09.267 GMT:
+Shutting down instance 645c405f-0140-2f92-787b-00000b2b1098
+----------------------------------------------------------------

@@ -1,0 +1,167 @@
+Hive, Pig, Hadoop simple performance benchmarks. 
+October 7, 2011
+
+This benchmark was taken from https://issues.apache.org/jira/browse/HIVE-396
+and was slight modified to make it easier to use. Below you will find
+the original readme file. Next, are my instructions on how to use
+the benchmark:
+
+1. Generate the "grep" dataset
+------------------------------
+# Compile and create the jar file
+cd datagen/teragen/
+ant
+
+# **Modify parameters** in teragen.pl and then run it
+perl teragen.pl
+
+# Check they data is created in the "grep" directory of HDFS
+$HADOOP_HOME/bin/hadoop fs -ls /data/grep
+$HADOOP_HOME/bin/hadoop fs -dus /data/grep
+
+
+2. Generate the "html" dataset
+------------------------------
+# Compile the data generation .c programs
+cd datagen/htmlgen/genhtml
+make genhtml
+make parsehtml
+
+# Install necessary packages to slaves
+cd ../
+./install_ssl.sh <SLAVES_FILE>
+e.g.: ./install_ssl.sh /root/SLAVE_NAMES.txt
+
+# **Modify parameters** in config.txt and then run the python script
+python generateData.py
+
+# Upload data into HDFS (The queries have the '/data' dir hardcoded)
+./upload_to_hdfs.sh <SLAVES_FILE> <SLAVES_OUT_DIR> <OUT_PATH_IN_HDFS>
+e.g.: ./upload_to_hdfs.sh /root/SLAVE_NAMES.txt /mnt/datagen /data
+
+# Check they data is created in the "rankings" and "uservisits" directories
+$HADOOP_HOME/bin/hadoop fs -ls /data/rankings
+$HADOOP_HOME/bin/hadoop fs -ls /data/uservisits
+
+
+3. Run the Benchmark
+--------------------
+# WARNING: I have only fixed/tested the Pig scripts.
+
+# If you plan to run the MapReduce implementation you must compile the code
+cd queries/mapreduce/
+ant
+
+# **Modify parameters** in benchmark.conf file and then run
+./benchmark.sh benchmark.conf
+
+# Note: the output from the queries is placed in '~/output' directory on HDFS
+
+====================================================================
+=========================== ORIGINAL README ========================
+====================================================================
+Hive, Pig, Hadoop simple performance benchmarks. 
+June, 18th, 2009
+
+Data set and queries are adopted from the following paper: 
+A. Pavlo, E. Paulson, A. Rasin, D. J. Abadi, D. J. Dewitt, S. Madden, and M. Stonebraker, "A Comparison of Approaches to Large-Scale Data Analysis," in SIGMOD .09: Proceedings of the 2009 ACM SIGMOD International Conference, 2009
+
+The paper and related materials (e.g. source code) can be found online at:
+http://database.cs.brown.edu/projects/mapreduce-vs-dbms/
+
+-----
+This README covers the following topics.
+1. How to set up hadoop, Hive and PIG
+2. How to generate the data
+3. How to run the queries.
+
+
+----
+1. How to set up hadoop, Hive and PIG
+
+Limited by PIG, we used hadoop release 0.18.3. It can be downloaded at http://hadoop.apache.org/core/releases.html.
+We used PIG trunk version 786346 which can be downloaded at http://hadoop.apache.org/pig/version_control.html.
+We used Hive trunk version 786346. To download Hive, please follow the instructions at http://wiki.apache.org/hadoop/Hive/GettingStarted.
+
+The configurations of hadoop can be found at ./confs, including hadoop-env.sh and hadoop-site.xml. To adopt those files to your own systems, the following properties need to be modified:
+In hadoop-env.sh:
+"JAVA_HOME"
+In hadoop-site.xml:
+"fs.default.name"
+"mapred.job.tracker"
+"dfs.data.dir"
+"mapred.local.dir"
+"dfs.http.address"
+The configuration of PIG can be found at ./confs/pig.properties. To adopt it to your own systems, the following properties need to be modified:
+"cluster"
+The configuration of Hive can be found at ./confs/hive-default.xml. 
+
+A group of system paths need to be exported:
+export HADOOP_HOME='YOUR HADOOP HOME DIRECTORY'
+export HADOOP_CONF_DIR="$HADOOP_HOME/conf"
+export HIVE_HOME='YOUR HIVE HOME DIRECTORY'
+export PIG_CLASSPATH="$HADOOP_HOME/conf"
+export PIG_HOME='YOUR PIG HOME DIRECTORY'
+
+In our experiment, we set up hadoop on a 11-node-cluster. One of the machine is used as the master/NameNode/JobTracker, ten others are used as slaves. We also installed Hive and PIG on the master machine.
+
+Lempel-Ziv-Oberhumer (lzo) compression is used in hadoop to compress intermediate map output data. This is optional in the benchmark. To turn it off, simply change "mapred.compress.map.output" to "false" in hadoop-site.xml. Enabling lzo compression requires installing lzo libraries On all the cluster machines. They can be downloaded at http://www.oberhumer.com/opensource/lzo/. After lzo is installed, find out the path that contains all the libraries. Make sure that path is added to "/etc/ld.so.conf" which includes all the shared library loading paths. Also make sure to run "/sbin/ldconfig" to update those paths. 
+
+----
+2. How to generate the data
+
+The authors of the SIGMOD 09 paper give detailed information on generating the test data at their website http://database.cs.brown.edu/projects/mapreduce-vs-dbms/. To make sure that the data work with Hive and PIG, we have made a few modifications to the source code as well as the scripts.
+
+There are two data sets. The first one is called "grep" which has two columns: (key VARCHAR, field VARCHAR). The data will be generated into the hadoop distributed file system. So before generating this data set, make sure that the hadoop is set up and running propertly. Assuming at the "source_code" directory, to generate "grep", follow these instructions:
+
+cd source_code/mapreduce
+ant jars
+mkdir ../datagen/teragen/lib
+cp ./jars/* ../datagen/teragen/lib
+
+cd ../datagen/teragen/
+ant teragen
+cp jars/teragen.jar ./
+
+Modify parameters in teragen.pl and then run it
+perl teragen.pl
+
+"grep" will be saved to /data/grep in the hadoop distributed file system. You can check it by typing the following command:
+$HADOOP_HOME/bin/hadoop fs -ls /data/grep
+
+The second data set is named "html" which includes a html page ranking table and a visiting user information table. The ranking table "rankings" has three columns: (pageRank INT, pageURL VARCHAR, avgDuration INT). The user information table "uservisits" has nine columns: (sourceIP VARCHAR,destURL VARCHAR,visitDate VARCHAR,adRevenue DOUBLE,userAgent VARCHAR,countryCode VARCHAR,languageCode VARCHAR,searchWord VARCHAR,duration INT). 
+
+The data is generated in parallel on cluster node machines. Before running those instructions, please make sure you modify the script file "generateData.py" and the configuration file "config.txt" according to your own systems. Most modifications are about the naming of the node machines since the script will ssh to those machines and execute commands remotely. Detailed information can be found at section "Analysis Benchmarks Data Sets" at http://database.cs.brown.edu/projects/mapreduce-vs-dbms/.
+
+cd ../../datagen/htmlgen/
+python generateData.py
+
+
+----
+3. How to run the queries
+
+Before running any queries, you need to copy two required jars, "benchmarks.jar" and "dataloader.jar", to local directory "hadoop-jars". Assuming you are at the current directory, to do that, use the following instructions:
+cd source_code/mapreduce
+ant jars
+cp ./jars/* ../../hadoop-jars/ 
+
+After that, you also need to copy the "rankings" and "uservisits" tables to the hadoop distributed file system (hdfs). One way to do that is first copying them to "data/" under current directory from probably multiple machines. Then you can copy them to hdfs by running the script "prepare_data.sh". This will require a large disk quote since all the data are copied to one machine first. Another way is copying those data directly to hdfs by executing the commands in the script individually on different machines. Please refer to the script "prepare_data.sh" for more informations on the commands.  
+
+If everything is running correctly, you should be able to see the data by typing the following commands:
+$HADOOP_HOME/bin/hadoop fs -ls /data/rankings
+$HADOOP_HOME/bin/hadoop fs -ls /data/uservisits
+$HADOOP_HOME/bin/hadoop fs -ls /data/hadoop/rankings
+$HADOOP_HOME/bin/hadoop fs -ls /data/hadoop/uservisits
+
+Make sure you have exported "HADOOP_HOME", "PIG_HOME" and "HIVE_HOME" as metioned in section 1. Then you can run those queries by running the script "benchmark.sh". There are some optional settings in benchmark.conf, such as "NUM_OF_TRIALS" which is defaulted to 3. 
+
+Basically, there are four queries, two of which are selects. One is aggregation and one is join. The details of those queries are explained in the SIGMOD 09 paper. 
+
+-----
+
+Questions about the benchmark? Please email to yjia@facebook.com.
+
+
+ 
+
+

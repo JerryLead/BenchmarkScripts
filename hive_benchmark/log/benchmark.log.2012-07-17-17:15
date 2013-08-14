@@ -1,0 +1,121 @@
+Running Pig CMD: /opt/pig-0.10.0/bin/pig -param reducers=18 /opt/benchmark/hive_benchmark/queries/pig/rankings_uservisits_join.pig
+2012-07-17 17:11:55,279 [main] INFO  org.apache.pig.Main - Apache Pig version 0.10.0 (r1328203) compiled Apr 19 2012, 22:54:12
+2012-07-17 17:11:55,279 [main] INFO  org.apache.pig.Main - Logging error messages to: /opt/benchmark/hive_benchmark/pig_1342516315277.log
+2012-07-17 17:11:55,445 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to hadoop file system at: hdfs://master:9000
+2012-07-17 17:11:55,490 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to map-reduce job tracker at: master:9001
+2012-07-17 17:11:56,037 [main] WARN  org.apache.pig.PigServer - Encountered Warning IMPLICIT_CAST_TO_CHARARRAY 2 time(s).
+2012-07-17 17:11:56,040 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig features used in the script: HASH_JOIN,GROUP_BY,ORDER_BY,FILTER
+2012-07-17 17:11:56,125 [main] INFO  org.apache.pig.newplan.logical.rules.ColumnPruneVisitor - Columns pruned for b: $2
+2012-07-17 17:11:56,126 [main] INFO  org.apache.pig.newplan.logical.rules.ColumnPruneVisitor - Columns pruned for a: $4, $5, $6, $7, $8
+2012-07-17 17:11:56,204 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler - File concatenation threshold: 100 optimistic? false
+2012-07-17 17:11:56,223 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.CombinerOptimizer - Choosing to move algebraic foreach to combiner
+2012-07-17 17:11:56,238 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MRCompiler$LastInputStreamingOptimizer - Rewrite: POPackage->POForEach to POJoinPackage
+2012-07-17 17:11:56,243 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size before optimization: 4
+2012-07-17 17:11:56,243 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MultiQueryOptimizer - MR plan size after optimization: 4
+2012-07-17 17:11:56,253 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2012-07-17 17:11:56,265 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2012-07-17 17:11:56,266 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job5571851082204211317.jar
+2012-07-17 17:11:58,011 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job5571851082204211317.jar created
+2012-07-17 17:11:58,019 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2012-07-17 17:11:58,056 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2012-07-17 17:11:58,354 [Thread-42] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 9
+2012-07-17 17:11:58,354 [Thread-42] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 9
+2012-07-17 17:11:58,378 [Thread-42] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 81
+2012-07-17 17:11:58,386 [Thread-42] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 9
+2012-07-17 17:11:58,386 [Thread-42] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 9
+2012-07-17 17:11:58,557 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 0% complete
+2012-07-17 17:11:58,747 [Thread-42] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 540
+2012-07-17 17:11:59,553 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201207171031_0017
+2012-07-17 17:11:59,554 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://master:50030/jobdetails.jsp?jobid=job_201207171031_0017
+2012-07-17 17:14:04,543 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2012-07-17 17:14:04,544 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2012-07-17 17:14:04,544 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job3282979256596318951.jar
+2012-07-17 17:14:06,150 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job3282979256596318951.jar created
+2012-07-17 17:14:06,153 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2012-07-17 17:14:06,164 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2012-07-17 17:14:06,380 [Thread-53] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 18
+2012-07-17 17:14:06,380 [Thread-53] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 18
+2012-07-17 17:14:06,394 [Thread-53] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 25
+2012-07-17 17:14:06,665 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201207171031_0018
+2012-07-17 17:14:06,665 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://master:50030/jobdetails.jsp?jobid=job_201207171031_0018
+2012-07-17 17:14:19,195 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 27% complete
+2012-07-17 17:14:20,198 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 29% complete
+2012-07-17 17:14:21,200 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 31% complete
+2012-07-17 17:14:21,702 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 34% complete
+2012-07-17 17:14:22,203 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 35% complete
+2012-07-17 17:14:39,242 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 42% complete
+2012-07-17 17:14:39,744 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 43% complete
+2012-07-17 17:14:40,245 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 44% complete
+2012-07-17 17:14:41,247 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 45% complete
+2012-07-17 17:14:42,250 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 47% complete
+2012-07-17 17:14:51,821 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2012-07-17 17:14:51,821 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2012-07-17 17:14:51,822 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job856361103648081179.jar
+2012-07-17 17:14:53,441 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job856361103648081179.jar created
+2012-07-17 17:14:53,444 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2012-07-17 17:14:53,452 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2012-07-17 17:14:53,655 [Thread-63] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 18
+2012-07-17 17:14:53,655 [Thread-63] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 18
+2012-07-17 17:14:53,666 [Thread-63] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 2
+2012-07-17 17:14:53,952 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201207171031_0019
+2012-07-17 17:14:53,952 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://master:50030/jobdetails.jsp?jobid=job_201207171031_0019
+2012-07-17 17:14:59,968 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 56% complete
+2012-07-17 17:15:00,469 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 62% complete
+2012-07-17 17:15:11,996 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 75% complete
+2012-07-17 17:15:19,021 [main] INFO  org.apache.pig.tools.pigstats.ScriptState - Pig script settings are added to the job
+2012-07-17 17:15:19,021 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - mapred.job.reduce.markreset.buffer.percent is not set, set to default 0.3
+2012-07-17 17:15:19,021 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - creating jar file Job6728783008692265563.jar
+2012-07-17 17:15:20,616 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - jar file Job6728783008692265563.jar created
+2012-07-17 17:15:20,619 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.JobControlCompiler - Setting up single store job
+2012-07-17 17:15:20,628 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 1 map-reduce job(s) waiting for submission.
+2012-07-17 17:15:20,882 [Thread-74] INFO  org.apache.hadoop.mapreduce.lib.input.FileInputFormat - Total input paths to process : 18
+2012-07-17 17:15:20,882 [Thread-74] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths to process : 18
+2012-07-17 17:15:20,895 [Thread-74] INFO  org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil - Total input paths (combined) to process : 2
+2012-07-17 17:15:21,128 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - HadoopJobId: job_201207171031_0020
+2012-07-17 17:15:21,128 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - More information at: http://master:50030/jobdetails.jsp?jobid=job_201207171031_0020
+2012-07-17 17:15:30,651 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 81% complete
+2012-07-17 17:15:33,658 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 87% complete
+2012-07-17 17:15:43,180 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 90% complete
+2012-07-17 17:15:44,183 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 91% complete
+2012-07-17 17:15:45,185 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 93% complete
+2012-07-17 17:15:45,686 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 94% complete
+2012-07-17 17:15:46,188 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 96% complete
+2012-07-17 17:15:47,190 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 97% complete
+2012-07-17 17:15:48,192 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 99% complete
+2012-07-17 17:15:56,258 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - 100% complete
+2012-07-17 17:15:56,261 [main] INFO  org.apache.pig.tools.pigstats.SimplePigStats - Script Statistics: 
+
+HadoopVersion	PigVersion	UserId	StartedAt	FinishedAt	Features
+0.20.3-dev	0.10.0	root	2012-07-17 17:11:56	2012-07-17 17:15:56	HASH_JOIN,GROUP_BY,ORDER_BY,FILTER
+
+Success!
+
+Job Stats (time in seconds):
+JobId	Maps	Reduces	MaxMapTime	MinMapTIme	AvgMapTime	MaxReduceTime	MinReduceTime	AvgReduceTime	Alias	Feature	Outputs
+job_201207171031_0017	621	18	18	3	5	100	87	91	a,b,b1,c,c1,d,d1	HASH_JOIN	
+job_201207171031_0018	25	18	18	9	14	18	12	17	e,f	GROUP_BY,COMBINER	
+job_201207171031_0019	2	1	3	3	3	12	12	12	g	SAMPLER	
+job_201207171031_0020	2	18	9	6	7	12	12	12	g	ORDER_BY	hdfs://master:9000/user/root/output/pig_bench/html_join,
+
+Input(s):
+Successfully read 92577177 records from: "/data/rankings"
+Successfully read 279000000 records from: "/data/uservisits"
+
+Output(s):
+Successfully stored 2355397 records (99837639 bytes) in: "hdfs://master:9000/user/root/output/pig_bench/html_join"
+
+Counters:
+Total records written : 2355397
+Total bytes written : 99837639
+Spillable Memory Manager spill count : 0
+Total bags proactively spilled: 0
+Total records proactively spilled: 0
+
+Job DAG:
+job_201207171031_0017	->	job_201207171031_0018,
+job_201207171031_0018	->	job_201207171031_0019,
+job_201207171031_0019	->	job_201207171031_0020,
+job_201207171031_0020
+
+
+2012-07-17 17:15:56,486 [main] INFO  org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.MapReduceLauncher - Success!

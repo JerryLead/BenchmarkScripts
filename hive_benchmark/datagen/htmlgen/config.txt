@@ -1,0 +1,24 @@
+# Configuration file with default values.
+
+# Place the output (docs directories, Rankings.dat, UserVisits.dat) 
+# Local directory on each slave machine
+Output: /tmp/datagen
+
+# File with slave names
+SlavesFile: /root/SLAVE_NAMES.txt
+
+# Row count for UserVisits PER NODE: 155000000 = 20G
+UserVisits: 155000000
+
+# Row count for Rankings PER NODE: 200000 = 1G 
+Rankings: 200000
+
+# Use this directory to store scripts and source data locally
+TempDir: /tmp/tmp/
+TempSubDir: datagen_temp/
+
+# Debug log
+Log: log.txt
+
+# Delimiter
+Delimiter: |

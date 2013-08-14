@@ -1,0 +1,17 @@
+TPC-H Benchmark
+===============
+TPC-H is an ad-hoc, decision support benchmark.
+
+http://www.tpc.org/tpch/
+
+Directories
+-----------
+1. datagen
+Contains the scripts for generating TPC-H data and loading them on HDFS.
+
+2. pig
+Contains the pig-latin implementation of some TPC-H queries and scripts
+for executing them
+
+3. lastword
+Contains the lastword (XML) implementation of all TPC-H queries.

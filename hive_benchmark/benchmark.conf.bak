@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+
+# PLEASE READ README ON HOW TO SET UP THIS CONFIGURATION!!!
+
+BASE_DIR=`pwd`
+
+NUM_OF_TRIALS=1 
+
+LOG_FILE="log/benchmark.log"
+
+TIMING_FILE="log/benchmark.timing.csv"
+
+# Which benchmark to run (1=run, 0=do-not-run)
+RUN_PIG=1
+RUN_HIVE=0
+RUN_HADOOP=0
+
+# hadoop
+HADOOP_CMD="$HADOOP_HOME/bin/hadoop"
+
+# pig 
+PIG_CMD="$PIG_HOME/bin/pig -param reducers=18"
+
+# hive
+HIVE_CMD="$HIVE_HOME/bin/hive"
+
+# pig all benchmark queries
+PIG_BENCHMARKS=( \
+#	"queries/pig/grep_select.pig" \
+#	"queries/pig/rankings_select.pig" \
+#	"queries/pig/uservisits_aggre.pig" \
+	"queries/pig/rankings_uservisits_join.pig" \
+)
+
+# hive all benchmark queries
+HIVE_BENCHMARKS=( \
+	"queries/hive/grep_select.hive" \
+	"queries/hive/rankings_select.hive" \
+	"queries/hive/uservisits_aggre.hive" \
+	"queries/hive/rankings_uservisits_join.hive" \
+)
+
+# hadoop all the benchmark queries
+HADOOP_DATA_PREPARE=( \
+	"fs -rmr output/hadoop_bench/grep_select" \
+	"fs -rmr output/hadoop_bench/rankings_select" \
+	"fs -rmr output/hadoop_bench/uservisits_aggre" \
+	"fs -rmr output/hadoop_bench/rankings_uservisits_join" \
+)
+HADOOP_BENCHMARKS=( \
+	"jar ./queries/mapreduce/jars/benchmarks.jar Grep /data/grep/ output/hadoop_bench/grep_select/ -m 380 -r 0 -Dmapreduce.grep.textfind=true -Dmapreduce.grep.pattern=XYZ -Dmapreduce.grep.match_group=-1;" \
+	"jar ./queries/mapreduce/jars/benchmarks.jar Benchmark1 /data/hadoop/rankings/ output/hadoop_bench/rankings_select/ -m 30 -r 30 -Dmapreduce.minpagerank=10" \
+	"jar ./queries/mapreduce/jars/benchmarks.jar Benchmark2 /data/hadoop/uservisits/ output/hadoop_bench/uservisits_aggre/ -m 450 -r 60" \
+	"jar ./queries/mapreduce/jars/benchmarks.jar Benchmark3 /data/hadoop/uservisits/ /data/hadoop/rankings/ output/hadoop_bench/rankings_uservisits_join/ -m 480 -r 60 -Dmapreduce.startdate=1999-01-01 -Dmapreduce.stopdate=2001-01-01" \
+)
+
+
+

@@ -1,0 +1,1134 @@
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:27:55 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 96.82757316438939
+Average IO rate mb/sec: 96.82757568359375
+ IO rate std deviation: 0.01764084962983963
+    Test exec time sec: 42.506
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:28:46 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 119.4726402986816
+Average IO rate mb/sec: 119.47264099121094
+ IO rate std deviation: 0.005599310313109921
+    Test exec time sec: 40.454
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:29:46 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 99.066415130847
+Average IO rate mb/sec: 99.06641387939453
+ IO rate std deviation: 0.007877086607296035
+    Test exec time sec: 43.435
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:30:37 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 109.82410982410983
+Average IO rate mb/sec: 109.82411193847656
+ IO rate std deviation: 0.019350063818433905
+    Test exec time sec: 40.421
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:31:37 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 98.21599846537502
+Average IO rate mb/sec: 98.21599578857422
+ IO rate std deviation: 0.002682586685718262
+    Test exec time sec: 43.416
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:32:25 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 129.39912807228154
+Average IO rate mb/sec: 129.3991241455078
+ IO rate std deviation: 0.022740372533590673
+    Test exec time sec: 37.403
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:33:25 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 100.36755697133056
+Average IO rate mb/sec: 100.3675537109375
+ IO rate std deviation: 0.025425520173099563
+    Test exec time sec: 43.436
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:34:16 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 109.8771393315092
+Average IO rate mb/sec: 109.87713623046875
+ IO rate std deviation: 0.016892409880531676
+    Test exec time sec: 40.461
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:35:16 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 98.12188577999234
+Average IO rate mb/sec: 98.12188720703125
+ IO rate std deviation: 0.021264862164585018
+    Test exec time sec: 43.454
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:36:04 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 119.11131790159358
+Average IO rate mb/sec: 119.11132049560547
+ IO rate std deviation: 0.012873641931882085
+    Test exec time sec: 37.461
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:37:04 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 99.35477611216223
+Average IO rate mb/sec: 99.35477447509766
+ IO rate std deviation: 0.01082808924764728
+    Test exec time sec: 43.444
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:37:55 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 117.97235023041475
+Average IO rate mb/sec: 117.97235107421875
+ IO rate std deviation: 0.005660496608697061
+    Test exec time sec: 40.443
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:38:55 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 100.21040270098351
+Average IO rate mb/sec: 100.21040344238281
+ IO rate std deviation: 0.006474169519135297
+    Test exec time sec: 43.442
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:39:47 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 109.76524815092722
+Average IO rate mb/sec: 109.76525115966797
+ IO rate std deviation: 0.014349041443891005
+    Test exec time sec: 40.466
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:40:49 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 95.92955173544428
+Average IO rate mb/sec: 95.92955017089844
+ IO rate std deviation: 0.008964704146783792
+    Test exec time sec: 46.188
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:41:28 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 296.46786334684424
+Average IO rate mb/sec: 296.4678649902344
+ IO rate std deviation: 0.018456222879781926
+    Test exec time sec: 28.448
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:42:28 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 99.00415740114087
+Average IO rate mb/sec: 99.00415802001953
+ IO rate std deviation: 0.007941378826773262
+    Test exec time sec: 43.489
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:43:20 CST 2012
+       Number of files: 1
+Total MBytes processed: 2048
+     Throughput mb/sec: 118.22432604052416
+Average IO rate mb/sec: 118.22432708740234
+ IO rate std deviation: 0.017445102336867274
+    Test exec time sec: 40.656
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:44:20 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 88.57365279820085
+Average IO rate mb/sec: 88.64500427246094
+ IO rate std deviation: 2.515039674961836
+    Test exec time sec: 43.438
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:45:14 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 96.84359853410568
+Average IO rate mb/sec: 97.9629135131836
+ IO rate std deviation: 10.471454773383268
+    Test exec time sec: 43.401
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:46:17 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 82.70236436691098
+Average IO rate mb/sec: 82.88407897949219
+ IO rate std deviation: 3.8809126466981065
+    Test exec time sec: 46.412
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:47:11 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 100.95632455880903
+Average IO rate mb/sec: 100.95738983154297
+ IO rate std deviation: 0.3306730286315712
+    Test exec time sec: 43.465
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:48:11 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 95.07450907571608
+Average IO rate mb/sec: 95.07689666748047
+ IO rate std deviation: 0.4769382362962061
+    Test exec time sec: 43.438
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:49:05 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 97.94825194892152
+Average IO rate mb/sec: 100.8185806274414
+ IO rate std deviation: 17.011213313373517
+    Test exec time sec: 43.404
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:50:08 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 82.02499198974688
+Average IO rate mb/sec: 82.06239318847656
+ IO rate std deviation: 1.7517990641410557
+    Test exec time sec: 46.41
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:51:02 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 85.38848006003877
+Average IO rate mb/sec: 85.57391357421875
+ IO rate std deviation: 3.983651057558877
+    Test exec time sec: 43.411
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:52:05 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 87.35524323402078
+Average IO rate mb/sec: 87.35985565185547
+ IO rate std deviation: 0.6364232471210595
+    Test exec time sec: 46.401
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:52:54 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 124.79054321664687
+Average IO rate mb/sec: 125.05136108398438
+ IO rate std deviation: 5.7109630409816345
+    Test exec time sec: 38.454
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:53:59 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 80.38938608886795
+Average IO rate mb/sec: 80.53305053710938
+ IO rate std deviation: 3.401306288565822
+    Test exec time sec: 48.497
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:54:53 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 103.06736116353389
+Average IO rate mb/sec: 103.46477508544922
+ IO rate std deviation: 6.412366296259643
+    Test exec time sec: 42.419
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:55:53 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 90.06948720204063
+Average IO rate mb/sec: 90.2503890991211
+ IO rate std deviation: 4.040575680796544
+    Test exec time sec: 44.409
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:56:52 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 90.3954802259887
+Average IO rate mb/sec: 91.20236206054688
+ IO rate std deviation: 8.57829600733269
+    Test exec time sec: 47.424
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:57:56 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 78.722300167208
+Average IO rate mb/sec: 79.19860076904297
+ IO rate std deviation: 6.141845099458833
+    Test exec time sec: 48.407
+
+----- TestDFSIO ----- : read
+           Date & time: Mon Sep 17 23:58:52 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 168.76802637000412
+Average IO rate mb/sec: 203.69615173339844
+ IO rate std deviation: 84.34887810607988
+    Test exec time sec: 44.449
+
+----- TestDFSIO ----- : write
+           Date & time: Mon Sep 17 23:59:58 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 75.45223446192388
+Average IO rate mb/sec: 75.46163940429688
+ IO rate std deviation: 0.8422799101956406
+    Test exec time sec: 49.466
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:00:52 CST 2012
+       Number of files: 2
+Total MBytes processed: 4096
+     Throughput mb/sec: 159.68188374722234
+Average IO rate mb/sec: 202.55337524414062
+ IO rate std deviation: 93.18668941139802
+    Test exec time sec: 43.414
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:01:59 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 76.61158338710733
+Average IO rate mb/sec: 77.2203140258789
+ IO rate std deviation: 6.990238463450261
+    Test exec time sec: 50.418
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:02:53 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 91.64951221695158
+Average IO rate mb/sec: 91.99402618408203
+ IO rate std deviation: 5.479500679115719
+    Test exec time sec: 43.38
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:04:02 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 71.29740032550326
+Average IO rate mb/sec: 73.40206909179688
+ IO rate std deviation: 12.646003688639265
+    Test exec time sec: 52.414
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:04:57 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 148.61849385896483
+Average IO rate mb/sec: 191.38558959960938
+ IO rate std deviation: 90.0386496864535
+    Test exec time sec: 43.463
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:06:02 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 68.36864990277164
+Average IO rate mb/sec: 69.29735565185547
+ IO rate std deviation: 8.540490397088151
+    Test exec time sec: 49.422
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:06:54 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 103.04661752496918
+Average IO rate mb/sec: 104.70325469970703
+ IO rate std deviation: 13.177570988739824
+    Test exec time sec: 40.469
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:08:04 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 68.2376656587617
+Average IO rate mb/sec: 68.60848236083984
+ IO rate std deviation: 4.9871099175602716
+    Test exec time sec: 53.38
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:08:55 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 110.7236504203498
+Average IO rate mb/sec: 114.08424377441406
+ IO rate std deviation: 19.975746284120806
+    Test exec time sec: 40.433
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:10:01 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 70.45669562225854
+Average IO rate mb/sec: 70.93909454345703
+ IO rate std deviation: 5.893864504038488
+    Test exec time sec: 49.47
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:10:56 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 141.61984614054802
+Average IO rate mb/sec: 194.45848083496094
+ IO rate std deviation: 101.35411705431176
+    Test exec time sec: 43.445
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:12:04 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 70.6024304059295
+Average IO rate mb/sec: 70.99214935302734
+ IO rate std deviation: 5.2047420313075365
+    Test exec time sec: 52.502
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:12:56 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 104.80796294874747
+Average IO rate mb/sec: 138.77423095703125
+ IO rate std deviation: 90.79854036084252
+    Test exec time sec: 40.402
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:14:02 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 70.1417905335982
+Average IO rate mb/sec: 70.82914733886719
+ IO rate std deviation: 7.109285888385219
+    Test exec time sec: 49.462
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:14:58 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 82.31345833082132
+Average IO rate mb/sec: 85.5215072631836
+ IO rate std deviation: 18.516001275808332
+    Test exec time sec: 45.407
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:16:08 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 62.35252926580506
+Average IO rate mb/sec: 63.24248504638672
+ IO rate std deviation: 7.836207728474423
+    Test exec time sec: 53.474
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:16:58 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 127.46821852583753
+Average IO rate mb/sec: 152.02345275878906
+ IO rate std deviation: 76.8059438742942
+    Test exec time sec: 39.41
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:18:07 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 67.80951750283505
+Average IO rate mb/sec: 68.1320571899414
+ IO rate std deviation: 4.830509105964249
+    Test exec time sec: 52.447
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:19:02 CST 2012
+       Number of files: 4
+Total MBytes processed: 8192
+     Throughput mb/sec: 129.51164371650356
+Average IO rate mb/sec: 156.86476135253906
+ IO rate std deviation: 77.82005087177704
+    Test exec time sec: 43.417
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:20:26 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 51.84842942043937
+Average IO rate mb/sec: 52.9000358581543
+ IO rate std deviation: 7.9642925741078585
+    Test exec time sec: 67.506
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:21:35 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 65.21228621124737
+Average IO rate mb/sec: 67.14385223388672
+ IO rate std deviation: 11.886979227824682
+    Test exec time sec: 58.447
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:22:54 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 52.34772384530839
+Average IO rate mb/sec: 52.64877700805664
+ IO rate std deviation: 4.070734474919907
+    Test exec time sec: 62.486
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:23:53 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 103.90928232578199
+Average IO rate mb/sec: 137.64224243164062
+ IO rate std deviation: 87.80201123274152
+    Test exec time sec: 47.427
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:25:17 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 51.204000312524414
+Average IO rate mb/sec: 52.41310119628906
+ IO rate std deviation: 8.183137956535198
+    Test exec time sec: 67.495
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:26:30 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 85.73431989199486
+Average IO rate mb/sec: 105.773681640625
+ IO rate std deviation: 69.17964153880612
+    Test exec time sec: 62.437
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:27:48 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 56.88750620644637
+Average IO rate mb/sec: 57.25563049316406
+ IO rate std deviation: 4.731362848946017
+    Test exec time sec: 61.48
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:28:55 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 92.24238397919142
+Average IO rate mb/sec: 132.44189453125
+ IO rate std deviation: 94.36360673532064
+    Test exec time sec: 55.415
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:30:18 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 53.40582757193195
+Average IO rate mb/sec: 54.136390686035156
+ IO rate std deviation: 6.2396580351182696
+    Test exec time sec: 66.505
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:31:18 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 99.48448287378028
+Average IO rate mb/sec: 118.82245635986328
+ IO rate std deviation: 67.79245986544807
+    Test exec time sec: 48.436
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:32:40 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 52.31596492684578
+Average IO rate mb/sec: 53.60390853881836
+ IO rate std deviation: 9.187268444503577
+    Test exec time sec: 65.478
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:33:41 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 76.58150339811725
+Average IO rate mb/sec: 77.19912719726562
+ IO rate std deviation: 7.042202179922335
+    Test exec time sec: 50.416
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:35:00 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 57.08710801393728
+Average IO rate mb/sec: 57.643592834472656
+ IO rate std deviation: 5.562732092835106
+    Test exec time sec: 62.478
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:36:09 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 70.93869068236924
+Average IO rate mb/sec: 71.72029113769531
+ IO rate std deviation: 7.917151282925142
+    Test exec time sec: 57.452
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:37:32 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 54.820555031351844
+Average IO rate mb/sec: 55.4532470703125
+ IO rate std deviation: 5.916359296698277
+    Test exec time sec: 66.44
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:38:30 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 114.37906215312441
+Average IO rate mb/sec: 162.11732482910156
+ IO rate std deviation: 100.50655073305207
+    Test exec time sec: 47.04
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:39:52 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 57.437134313289
+Average IO rate mb/sec: 58.541236877441406
+ IO rate std deviation: 8.339096367033383
+    Test exec time sec: 65.435
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:40:57 CST 2012
+       Number of files: 8
+Total MBytes processed: 16384
+     Throughput mb/sec: 74.84969756775031
+Average IO rate mb/sec: 76.36618041992188
+ IO rate std deviation: 10.837914666666316
+    Test exec time sec: 53.588
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:42:43 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 34.98018166892445
+Average IO rate mb/sec: 35.39747619628906
+ IO rate std deviation: 3.9863815079466747
+    Test exec time sec: 89.479
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:44:13 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 47.4970828894252
+Average IO rate mb/sec: 59.13151550292969
+ IO rate std deviation: 51.070938211428384
+    Test exec time sec: 78.428
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:45:58 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 34.10867560326181
+Average IO rate mb/sec: 34.27764892578125
+ IO rate std deviation: 2.436760893509562
+    Test exec time sec: 88.476
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:47:32 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 62.89503738039713
+Average IO rate mb/sec: 108.29421997070312
+ IO rate std deviation: 97.15730342304157
+    Test exec time sec: 82.446
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:49:23 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 33.479677504717785
+Average IO rate mb/sec: 34.26043701171875
+ IO rate std deviation: 5.785253656289801
+    Test exec time sec: 94.509
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:50:50 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 57.880289825377034
+Average IO rate mb/sec: 81.7035140991211
+ IO rate std deviation: 69.5312334456949
+    Test exec time sec: 74.487
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:52:37 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 36.59389133954995
+Average IO rate mb/sec: 37.270633697509766
+ IO rate std deviation: 5.598087574268067
+    Test exec time sec: 90.535
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:54:04 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 51.500554014443665
+Average IO rate mb/sec: 64.74861145019531
+ IO rate std deviation: 55.51630119238976
+    Test exec time sec: 74.489
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:55:53 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 34.658261586952385
+Average IO rate mb/sec: 35.15040588378906
+ IO rate std deviation: 4.307740964880811
+    Test exec time sec: 92.515
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 00:57:22 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 56.04337341155142
+Average IO rate mb/sec: 78.14483642578125
+ IO rate std deviation: 67.58355483205875
+    Test exec time sec: 77.442
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 00:59:05 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 33.38556620363484
+Average IO rate mb/sec: 33.892181396484375
+ IO rate std deviation: 4.390302051324139
+    Test exec time sec: 86.451
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:00:40 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 42.32394193374226
+Average IO rate mb/sec: 43.657249450683594
+ IO rate std deviation: 7.739006825865128
+    Test exec time sec: 83.481
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:02:27 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 33.884108654986605
+Average IO rate mb/sec: 34.182945251464844
+ IO rate std deviation: 3.255817964052135
+    Test exec time sec: 90.494
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:03:55 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 63.600756190631465
+Average IO rate mb/sec: 111.32718658447266
+ IO rate std deviation: 98.76779758446581
+    Test exec time sec: 76.439
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:05:49 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 34.8246756973331
+Average IO rate mb/sec: 35.469112396240234
+ IO rate std deviation: 4.9191262565180045
+    Test exec time sec: 97.504
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:07:15 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 49.57389866458495
+Average IO rate mb/sec: 62.262264251708984
+ IO rate std deviation: 53.0307325499244
+    Test exec time sec: 74.497
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:08:59 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 35.37228444204561
+Average IO rate mb/sec: 35.78725051879883
+ IO rate std deviation: 4.082537138155697
+    Test exec time sec: 87.513
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:10:24 CST 2012
+       Number of files: 16
+Total MBytes processed: 32768
+     Throughput mb/sec: 56.72648961566626
+Average IO rate mb/sec: 94.05233001708984
+ IO rate std deviation: 90.3847626102233
+    Test exec time sec: 73.509
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:13:23 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 20.170471508162553
+Average IO rate mb/sec: 20.95437240600586
+ IO rate std deviation: 4.3137666244642965
+    Test exec time sec: 161.624
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:15:43 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 28.657109049710044
+Average IO rate mb/sec: 38.92857360839844
+ IO rate std deviation: 36.76642841476453
+    Test exec time sec: 126.538
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:18:36 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 20.1700679958057
+Average IO rate mb/sec: 20.825584411621094
+ IO rate std deviation: 3.706599731653595
+    Test exec time sec: 156.639
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:20:42 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 34.74871129237677
+Average IO rate mb/sec: 47.57692337036133
+ IO rate std deviation: 36.349003883378856
+    Test exec time sec: 113.599
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:23:24 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 20.493243758779112
+Average IO rate mb/sec: 21.022062301635742
+ IO rate std deviation: 3.4844524030378126
+    Test exec time sec: 145.535
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:25:55 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 25.3422318843606
+Average IO rate mb/sec: 30.419553756713867
+ IO rate std deviation: 24.45654663010541
+    Test exec time sec: 137.57
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:28:56 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 20.63689846964626
+Average IO rate mb/sec: 21.097156524658203
+ IO rate std deviation: 2.9908737735886746
+    Test exec time sec: 163.633
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:31:00 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 26.846396386616618
+Average IO rate mb/sec: 31.990262985229492
+ IO rate std deviation: 29.48761289711717
+    Test exec time sec: 112.558
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:33:36 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 20.905772182716245
+Average IO rate mb/sec: 21.15906524658203
+ IO rate std deviation: 2.4444038607878373
+    Test exec time sec: 138.548
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:35:49 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 34.74272433724235
+Average IO rate mb/sec: 49.52876281738281
+ IO rate std deviation: 40.26116575848944
+    Test exec time sec: 121.594
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:38:36 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 21.496474218728988
+Average IO rate mb/sec: 22.292156219482422
+ IO rate std deviation: 4.68881029522721
+    Test exec time sec: 149.734
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:40:46 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 32.31687261670708
+Average IO rate mb/sec: 41.167781829833984
+ IO rate std deviation: 30.231465766884607
+    Test exec time sec: 117.67
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:43:19 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 21.23133033709467
+Average IO rate mb/sec: 21.626609802246094
+ IO rate std deviation: 3.1885696236080996
+    Test exec time sec: 134.559
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:45:24 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 29.619452228147882
+Average IO rate mb/sec: 40.690696716308594
+ IO rate std deviation: 39.767738322518014
+    Test exec time sec: 113.577
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:48:02 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 20.907526243673363
+Average IO rate mb/sec: 21.17789649963379
+ IO rate std deviation: 2.4617549529665124
+    Test exec time sec: 140.59
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:50:28 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 30.096872471299683
+Average IO rate mb/sec: 40.181705474853516
+ IO rate std deviation: 27.886530305433787
+    Test exec time sec: 134.585
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 01:53:18 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 20.562126418046578
+Average IO rate mb/sec: 20.912769317626953
+ IO rate std deviation: 2.6915871673493044
+    Test exec time sec: 152.567
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 01:55:26 CST 2012
+       Number of files: 32
+Total MBytes processed: 65536
+     Throughput mb/sec: 30.98477946464073
+Average IO rate mb/sec: 39.566802978515625
+ IO rate std deviation: 28.842257486248837
+    Test exec time sec: 115.601
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 02:00:30 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 19.763579507047424
+Average IO rate mb/sec: 20.89488983154297
+ IO rate std deviation: 4.892332826006078
+    Test exec time sec: 285.894
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 02:04:51 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 21.545258159441353
+Average IO rate mb/sec: 27.603050231933594
+ IO rate std deviation: 15.082513099263151
+    Test exec time sec: 247.831
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 02:09:18 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 20.793481223330353
+Average IO rate mb/sec: 21.368701934814453
+ IO rate std deviation: 3.5767824287943553
+    Test exec time sec: 248.854
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 02:13:17 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 24.83170134059208
+Average IO rate mb/sec: 29.938379287719727
+ IO rate std deviation: 17.839835475819893
+    Test exec time sec: 225.789
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 02:17:27 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 21.479635381091786
+Average IO rate mb/sec: 21.874982833862305
+ IO rate std deviation: 3.0543958129066
+    Test exec time sec: 232.802
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 02:21:34 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 23.001411089680268
+Average IO rate mb/sec: 27.239788055419922
+ IO rate std deviation: 12.575562196852111
+    Test exec time sec: 233.813
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 02:25:59 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 20.508654435619267
+Average IO rate mb/sec: 21.076068878173828
+ IO rate std deviation: 3.655987649227048
+    Test exec time sec: 246.794
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 02:30:06 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 22.976597604699517
+Average IO rate mb/sec: 29.061962127685547
+ IO rate std deviation: 18.657647269280993
+    Test exec time sec: 234.793
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 02:34:52 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 20.02960920012372
+Average IO rate mb/sec: 20.913244247436523
+ IO rate std deviation: 4.584508184222576
+    Test exec time sec: 267.796
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 02:38:56 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 23.593493212946612
+Average IO rate mb/sec: 27.847293853759766
+ IO rate std deviation: 19.776884204810386
+    Test exec time sec: 230.775
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 02:43:31 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 20.482121819807272
+Average IO rate mb/sec: 21.363821029663086
+ IO rate std deviation: 4.087515993712246
+    Test exec time sec: 257.812
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 02:47:38 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 23.66449397897942
+Average IO rate mb/sec: 30.081317901611328
+ IO rate std deviation: 21.874699926992093
+    Test exec time sec: 233.996
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 02:52:18 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 20.30210282400466
+Average IO rate mb/sec: 21.30657386779785
+ IO rate std deviation: 4.657351259918152
+    Test exec time sec: 261.815
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 02:56:14 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 24.760119342445343
+Average IO rate mb/sec: 29.570911407470703
+ IO rate std deviation: 15.154402828683782
+    Test exec time sec: 223.841
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 03:00:43 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 20.18175776778722
+Average IO rate mb/sec: 20.805339813232422
+ IO rate std deviation: 3.552388446368815
+    Test exec time sec: 250.763
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 03:04:46 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 23.877882353627008
+Average IO rate mb/sec: 27.740461349487305
+ IO rate std deviation: 12.643169645619468
+    Test exec time sec: 230.811
+
+----- TestDFSIO ----- : write
+           Date & time: Tue Sep 18 03:09:22 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 20.70726220267435
+Average IO rate mb/sec: 21.669010162353516
+ IO rate std deviation: 4.608420271869683
+    Test exec time sec: 257.841
+
+----- TestDFSIO ----- : read
+           Date & time: Tue Sep 18 03:13:26 CST 2012
+       Number of files: 64
+Total MBytes processed: 131072
+     Throughput mb/sec: 22.93627428334642
+Average IO rate mb/sec: 26.316070556640625
+ IO rate std deviation: 11.540969789431417
+    Test exec time sec: 231.784
+

@@ -1,0 +1,7 @@
+DROP TABLE uservisits;
+DROP TABLE uservisits_aggre;
+set mapred.reduce.tasks=9;
+CREATE EXTERNAL TABLE uservisits (sourceIP STRING,destURL STRING,visitDate STRING,adRevenue DOUBLE,userAgent STRING,countryCode STRING,languageCode STRING,searchWord STRING,duration INT ) ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' STORED AS TEXTFILE LOCATION '/data/uservisits';
+CREATE TABLE uservisits_aggre ( sourceIP STRING, sumAdRevenue DOUBLE);
+INSERT OVERWRITE TABLE uservisits_aggre SELECT sourceIP, SUM(adRevenue) FROM uservisits GROUP BY sourceIP;
+

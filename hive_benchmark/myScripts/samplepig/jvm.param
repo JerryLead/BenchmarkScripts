@@ -1,0 +1,1 @@
+mapred_child_java_opts='-Xmx1000m'

@@ -1,0 +1,49 @@
+TPC-H Benchmark
+===============
+TPC-H is an ad-hoc, decision support benchmark.
+
+TPC-H official webpage: http://www.tpc.org/tpch/
+Pig JIRA: https://issues.apache.org/jira/browse/PIG-2397
+
+
+Data Generation
+===============
+The data generation script are located in the 'tpch/datagen' directory.
+Refer to the 'tpch/datagen/README' file for more info.
+
+Notes:
+1) The data is generated in text format and the columns are separated by '|'.
+2) The data file(s) for each table are placed in a directory $dir/$table_name
+for each table.
+
+
+Run Benchmark
+=============
+./run_tpch.sh <input_dir> <output_dir> <reducers> [<hadoop_opts>]
+
+where:
+   input_dir:   The input directory on HDFS
+   output_dir:  The output directory on HDFS
+   reducers:    The number of reduce tasks to use per MapReduce job
+   hadoop_opts: Optional Hadoop options (-conf or -D)
+
+Tip: You can get the tab-separated timings using:
+>$ grep "times (sec)" out.log
+
+
+Run Individual Scripts
+======================
+${PIG_HOME}/bin/pig $hadoop_opts -param input=<input_dir> -param output=<output_dir> -param reducers=<reducers> -f queries/<script_name>
+
+where:
+   input_dir:  The pigmix input directory on the DFS
+   output_dir: The output directory on the DFS
+   reducers:   The number of reduce tasks to user per MapReduce job
+   <script_name>: One of the Q<X>.pig script in the scripts dir
+
+
+Use with Starfish
+=================
+For executing, profiling, and optimizing the queries using Starfish, use
+the exec_tpch.sh, profile_tpch.sh, and optimize_tpch.sh scripts respectively.
+
