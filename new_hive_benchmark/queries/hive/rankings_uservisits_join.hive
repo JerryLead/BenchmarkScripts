@@ -1,0 +1,8 @@
+DROP TABLE rankings;
+DROP TABLE uservisits;
+DROP TABLE rankings_uservisits_join;
+set mapred.reduce.tasks=60;
+CREATE EXTERNAL TABLE rankings (pageRank INT, pageURL STRING, avgDuration INT) ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' STORED AS TEXTFILE LOCATION '/data/rankings';
+CREATE EXTERNAL TABLE uservisits (sourceIP STRING,destURL STRING,visitDate STRING,adRevenue DOUBLE,userAgent STRING,countryCode STRING,languageCode STRING,searchWord STRING,duration INT ) ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' STORED AS TEXTFILE LOCATION '/data/uservisits/';
+CREATE TABLE rankings_uservisits_join ( sourceIP STRING, avgPageRank DOUBLE, totalRevenue DOUBLE);
+INSERT OVERWRITE TABLE rankings_uservisits_join SELECT sourceIP, avg(pageRank), sum(adRevenue) as totalRevenue FROM rankings R JOIN (SELECT sourceIP, destURL, adRevenue FROM uservisits UV WHERE UV.visitDate > '1999-01-01' AND UV.visitDate < '2000-01-01') NUV ON (R.pageURL = NUV.destURL) group by sourceIP order by totalRevenue DESC limit 1;
